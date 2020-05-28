@@ -18,7 +18,6 @@ const countTip = (bill, service) => {
 
 const handleButtonClick = async e => {
   e.preventDefault();
-  console.log(e)
   const bill = parseInt(document.getElementById("bill").value);
   const service = parseInt(document.getElementById("service").value);
   const guestsElem = document.getElementById("guests");

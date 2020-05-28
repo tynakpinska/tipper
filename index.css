@@ -47,9 +47,17 @@ h1 {
 }
 
 form {
-    margin: 30vh auto 2vh auto;
-    width: 50vw;
+    margin: 25vh auto 2vh auto;
+    width: 50vh;
+    height: 50vh;
     text-align: center;
+    background: rgba(153, 224, 158, 0.2);
+    padding: 3vh;
+    border-radius: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 input, label {
@@ -71,7 +79,7 @@ button {
     background: #D65398;
     color:rgb(248, 214, 232);
     border: 2px solid rgb(248, 214, 232);
-    margin: 10vh;
+    margin: 2vh;
     cursor: pointer;
 }
 
@@ -91,5 +99,5 @@ input, select {
 
 p {
     text-align: center;
-    color:rgb(29, 61, 31);
+    color:#BB0766;
 }
