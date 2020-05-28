@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@600&family=Varela+Round&display=swap" rel="stylesheet"> 
+    <link href="index.css" rel="stylesheet"/>
+    <title>Oblicz napiwek</title>
+</head>
+<body>
+    <h1>Oblicz napiwek</h1>
+    <form>
+        <label for="bill">Wpisz kwotę z rachunku</label>
+        <input id="bill" name="bill" type="number" min="1" step="0.01" required/>
+        <label for="service">Oceń jakość obsługi</label>
+        <select id="service" name="service">
+            <option value="5">Wyjątkowa</option>
+            <option value="4">Zgodna z oczekiwaniami</option>
+            <option value="3" selected>Przeciętna</option>
+            <option value="2">Poniżej przeciętnej</option>
+            <option value="1">Fatalna</option>
+        </select>
+        <label for="guests">Wpisz ilość gości</label>
+        <input id="guests" name="guests" type="number" required/>
+        <button>Oblicz</button>
+    </form>
+    <p class="tip"></p>
+    <p class="tipPerGuest"></p>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
