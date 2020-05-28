@@ -11,15 +11,42 @@ body {
     font-family: 'Varela Round', sans-serif;
 }
 
+header, footer {
+    background: rgb(29, 61, 31);
+    width: 40vh;
+    height: 40vh;
+    transform: rotate(45deg);
+    position: fixed;
+}
+
+header {
+    top: -20vh;
+    left: -20vh;
+}
+
+footer {
+    bottom: -20vh;
+    right: -20vh;
+}
+
+footer > p {
+    position: fixed;
+    bottom: 15vh;
+    left: 5vh;
+    transform: rotate(-45deg);
+}
+
+
 h1 {
-    padding: 10vh;
-    text-align: center;
+    transform: rotate(-45deg);
+    position: fixed;
+    top: 8vh;
     font-family: 'Mukta', sans-serif;
     color: #BB0766;
 }
 
 form {
-    margin: 5vh auto;
+    margin: 30vh auto;
     width: 50vw;
     text-align: center;
 }
