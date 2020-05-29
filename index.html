@@ -11,9 +11,9 @@
     <title>Oblicz napiwek</title>
   </head>
   <body>
-    <header></header>
+    <header><h1>Oblicz napiwek</h1></header>
     <main>
-      <h1>Oblicz napiwek</h1>
+      
       <form>
         <label for="bill">Wpisz kwotę z rachunku</label>
         <input
@@ -34,7 +34,15 @@
           <option value="1">Fatalna</option>
         </select>
         <label for="guests">Wpisz ilość gości</label>
-        <input id="guests" name="guests" type="number" required value="2" />
+        <input
+          id="guests"
+          name="guests"
+          type="number"
+          required
+          value="2"
+          min="1"
+          step="1"
+        />
         <button>Oblicz</button>
       </form>
       <p class="tip"></p>
